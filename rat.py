@@ -79,8 +79,8 @@ def remove_self_from_autostart(program_name=None):
         return False
 
 
-my_id = 1708656189
-bot_token = '8362125234:AAE8Ch9QGofRON1DmEpko2qvEiEqgKvwNhA'
+my_id = 123
+bot_token = '123'
 bot = telebot.TeleBot(bot_token)
 
 
@@ -555,4 +555,5 @@ def is_digit(string):
 bot.polling(none_stop=True, interval=0, timeout=20)
 #	except Exception as E:
 #		print(E.args)
+
 #		time.sleep(2)
